@@ -1,0 +1,22 @@
+
+Task 1: Data Cleaning & Preprocessing Summary
+
+Objective:
+Clean and prepare the raw Netflix titles dataset for further analysis.
+
+Steps Performed:
+
+1. Duplicate Handling
+- Identified and removed duplicate rows to ensure unique entries.
+
+2. Missing Value Treatment
+- Replaced blank or missing values in key columns:
+  - country, cast, director, rating, and duration
+  - Used "NA" as a placeholder for missing data.
+
+3. Text Standardization & Corrections
+- Trimmed leading and trailing spaces in the 'title' column for consistency.
+
+Deliverables:
+- Cleaned Dataset: netflix_cleaned.xlsx
+- Summary Report: This summary document.
